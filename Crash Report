@@ -1,0 +1,185 @@
+# 123
+Crash Report
+update-7c pc steam compiled 23:47:52, Jun  3 2016
+Steam Breakpad Build Id: 3000703
+Loading Preferences from C:\Users\Conner\AppData\Local/Introversion/Prison Architect/preferences.txt
+BEGIN DataRegistry DUMP:
+	 Screen
+	 ScreenW [int] 0
+	 ScreenH [int] 0
+	 ScreenWindowed [bool] 0
+	 ScreenHighDPI [bool] 0
+	 ScreenMultiSampled [bool] 0
+	 ScreenSuperSampled [bool] 0
+	 Sound
+	 SoundMixFrequency [int] 22050
+	 SoundVolume [int] 255
+	 SoundSwapStereo [bool] 0
+	 SoundEnableDsp [bool] 1
+	 RenderRooms [bool] 1
+	 RecentMap [string] 
+	 FirstTime [bool] 0
+	 AutoSaveTimer [int] 10
+	 HardwareCompat [int] 0
+	 LastKnownVersion [string] update-7c-pc-steam
+	 FlashMobYear [int] 0
+	 RegistrationShown [bool] 0
+	 TimeLapseCamera [int] 0
+	 TimeLapseInterval [int] 1
+	 TimeLapseFPSNumerator [int] 24
+	 TimeLapseFPSDenominator [int] 1
+	 TimeLapseQuality [int] 63
+	 Mods [string] 
+	 LastSubCheck [int] 0
+	 UiScale [float] 1.00
+	 EnabledVBOs [bool] 0
+	 ForumId [int] 0
+	 SteamUser [bool] 1
+	 ClockType [int] 0
+	 MotdId [string] 
+	 LoadCJKFonts [bool] 1
+	 Language [string] english
+END DataRegistry DUMP:
+Suggested resolution : 1920 x 1080
+WindowManager attempting to create window at 1920x1080 fullscreen
+OpenGL Vendor     : ATI Technologies Inc.
+OpenGL Renderer   : AMD Radeon (TM) R9 380 Series
+OpenGL Version    : 4.5.13440 Compatibility Profile Context 16.200.1035.0
+OpenGL GLSL       : 4.50
+Windows 8.1 Per-monitor DPI reported: 120 x 120
+Parsing archive main.dat...
+	Parsing archive at path 'main.dat'
+	DONE
+Parsing archive sounds.dat...
+	Parsing archive at path 'sounds.dat'
+	DONE
+Initialising SDL Audio:
+	Frequency: 22050
+	Format: 32784
+	Channels: 2
+	Samples: 512
+	Size of Stereo Sample: 4
+SoundSystem started : 22050Hz x 64 sound channels (including 8 music channels)
+Using Native Win32 Condition Variables
+There are 2 mod sub directories
+ libpng version 1.4.7 - April 10, 2011
+ (Running with version 1.4.7)
+OpenGL using glGenerateMipmaps to generate mipmaps.
+Loading user sprite images for path: data/sprites.png
+Failed to get sprites.png for data/sprites.png
+Created FrameBuffer of size 64 x 64 in 0ms
+Object spritebank composite took 742ms
+Warning: Loading a very high res image (2688x128)
+Warning: mipmaps requested for non-power-of-two image (2688x128), will break on OpenGL ES
+[SteamWrapper] SteamAPI is initialised.
+[SteamAchievementsWrapper] Waiting for Steam Achievement service? Yes
+[SteamInventoryWrapper::Init] Failed to get item definition array size
+[SteamWorkshopWrapper::ListPublishedFiles] Listing published files from index 0
+Parsing archive collectables.dat...
+	Parsing archive at path 'collectables.dat'
+	DONE
+BiographyGenerator reading bios...
+BiographyGenerator read 27 fornames, 235 surnames, 48 crimes
+BiographyGenerator reading Names in the Game...
+BiographyGenerator read 22910 Names in the Game (including 83 Faces in the game)
+Requesting message-of-the-day...
+Curl version libcurl/7.46.0
+MessageQueue HTTPThread (358CC258) running.
+Detected encoding UTF8 for file data/language/fullgame.txt
+Loaded in 748 strings
+Detected encoding UTF8 for file data/language/base-language.txt
+Loaded in 3310 strings
+Couldn't open unicode hyphenation file data/language/hyphenations.txt
+Warning: Failed to load BMFont font data/fonts/verdana-bold.fnt
+Warning: Failed to load BMFont font data/fonts/verdana-bold-outlined.fnt
+Fonts loaded in 125ms
+OpenGL Max texture Size 16384 x 16384 [192 tex units]
+Multisampled Framebuffer support : yes
+Supersampling support at screen res 1920 x 1080 : yes
+Loading page 0 of bitmap font data/fonts/catalogue.fnt.
+================
+==  NEW MAP  ===
+================
+World Initialised to size 100 x 80 cells
+MaterialLibrary reading from 'data/materials.txt'
+DataRegistry Warning : Failed to match enum value 'Metal'
+DataRegistry Warning : Failed to match enum value 'Metal'
+ReformProgramManager reading from data/reform_programs.txt...
+DataRegistry Warning : Failed to match enum value 'calming'
+GridRoutingSystem(35883BD8) constructed.
+Grid Navigation System initialised
+GridRoutingSystem created Route Work-In-Progress and CellInfo (size 562Kb)
+EscapeMap Initialised : 62Kb
+Lightmap initialised in 0ms : 93Kb
+Weathermap initialised in 0ms : 187Kb
+Danger initialised : 62Kb
+Patrol System Initialised : 218Kb
+Gang System Initialised
+Created FrameBuffer of size 512 x 512 in 0ms
+Water System Initialised : 593Kb
+PowerSystem initialised : 62Kb
+Reading production.txt...
+PolaroidSystem has 177 polaroids in the database
+ScriptSystem initialised in 0ms
+Parsing LUA script 'data/grants.lua'
+ConstructionSystem reading from 'data/prefabs.txt'
+ERROR : Failed to load job file 'data/jobs.txt'
+Generating new world...
+Create starting world done...
+Saving Preferences to C:\Users\Conner\AppData\Local/Introversion/Prison Architect/preferences.txt
+Save successful!
+FoodSystem Recalculate took 0.0ms
+[SteamWorkshopWrapper::OnListPublishedFiles] Starting subscribed files listing
+[SteamWorkshopWrapper::ListSubscribedFiles] Listing published files from index 0
+[SteamAchievementsWrapper::OnUserStatsReceived] Got an OK from Steam achievements
+[SteamInventoryWrapper::Init] Getting list of item definition ids
+[SteamInventoryWrapper::Init] Found 7 item definition ids
+[SteamInventoryWrapper::Init] Finding properties for item id 1
+[SteamInventoryWrapper::Init] Item 1 got property  = 
+[SteamInventoryWrapper::Init] Finding properties for item id 100
+[SteamInventoryWrapper::Init] Item 100 got property  = 
+[SteamInventoryWrapper::Init] Finding properties for item id 101
+[SteamInventoryWrapper::Init] Item 101 got property  = 
+[SteamInventoryWrapper::Init] Finding properties for item id 102
+[SteamInventoryWrapper::Init] Item 102 got property  = 
+[SteamInventoryWrapper::Init] Finding properties for item id 103
+[SteamInventoryWrapper::Init] Item 103 got property  = 
+[SteamInventoryWrapper::Init] Finding properties for item id 104
+[SteamInventoryWrapper::Init] Item 104 got property  = 
+[SteamInventoryWrapper::Init] Finding properties for item id 105
+[SteamInventoryWrapper::Init] Item 105 got property  = 
+[SteamInventoryWrapper::OnSteamInventoryUpdate] Getting result items
+[SteamInventoryWrapper::OnSteamInventoryUpdate] Found 0 result items
+[SteamWorkshopWrapper::OnListSubscribedFiles] Getting file details
+WorldRenderer: vexCellTypes initialised in 0ms : 16000 triangles (vex,tex), 0.9 MBytes
+ShaderOpenGL successfully compiled : LightMapNoColour
+ShaderOpenGL successfully compiled : LightMap
+WorldRenderer: vexCell2ndLayer initialised in 0ms : 16000 triangles (vex,tex), 0.9 MBytes
+ShaderOpenGL successfully compiled : LightMapNoTexture
+WorldRenderer: vexDetails initialised in 0ms : 16000 triangles (vex,tex,col), 1.1 MBytes
+ShaderOpenGL successfully compiled : SunShadows
+WorldRenderer: vexFowBlueprint initialised in 0ms : 16000 triangles (vex,tex), 0.9 MBytes
+ShaderOpenGL successfully compiled : VisMap
+Waited for prerender group to finish for 0.000001 seconds
+Warning: mipmaps requested for non-power-of-two image (1000x1000), will break on OpenGL ES
+Warning: mipmaps requested for non-power-of-two image (359x436), will break on OpenGL ES
+Saving Preferences to C:\Users\Conner\AppData\Local/Introversion/Prison Architect/preferences.txt
+Save successful!
+SectorSystem check: There are 1 new sectors.
+Performance: Waited 0.000000 s or Update Thread to complete.
+Performance: Waited 0.000000 s or Update Thread to complete.
+Waited for prerender group to finish for 0.000001 seconds
+LaundrySystem Recalculate took 0.0ms
+[SteamWorkshopWrapper::OnGetFileDetails] Adding file details for "Ultra Super Max Escape Proof !! You Cant Escape This :P"
+[SteamWorkshopWrapper::OnGetFileDetails] Adding file details for "Cube 110"
+[SteamWorkshopWrapper::OnGetFileDetails] Adding file details for "The Walls (1200+) A18"
+[SteamWorkshopWrapper::OnGetFileDetails] Adding file details for "Prisoner boat (TEST)"
+[SteamWorkshopWrapper::OnGetFileDetails] Adding file details for "51"
+[SteamWorkshopWrapper::OnGetFileDetails] Adding file details for "Escape (almost) Impossible v.1.04"
+Performance: Waited 0.000001 s or Update Thread to complete.
+Waited for prerender group to finish for 0.000001 seconds
+[SteamWorkshopWrapper::OnGetFileDetails] Adding file details for "ULTRA RIOT ++ : The Ultimate Riot X-perience ! O__O"
+[SteamWorkshopWrapper::OnGetFileDetails] Adding file details for "Vault-088"
+[SteamWorkshopWrapper::OnGetFileDetails] Adding file details for "Gangs, Supports Escape Mode"
+Performance: Waited 0.000001 s or Update Thread to complete.
+FoodSystem Recalculate took 0.0ms
